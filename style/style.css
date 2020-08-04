@@ -864,3 +864,131 @@ li{
     border: 1px solid #8caf48;
     margin-top: 20px;
 }
+
+
+/*
+***********************
+    PRODUCTION3
+***********************
+*/
+
+.production_solo-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.production_solo-img{
+    position: relative;
+}
+.production_solo-img img{
+    height: auto;
+}
+
+.corn_solo{
+    border: 1px solid #c5aca1;
+}
+
+.solo_sale{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.production_solo-sale{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-family: "RubikMedium";
+    font-size: 14px;
+    line-height: 42.95px;
+    color: #fff;
+}
+
+.production_solo-info_block{
+    margin-left: 28px;
+}
+
+.production_solo-purchase{
+    padding: 32px 65px 37px 32px;
+    border: 1px solid #c5aca1;
+}
+
+.production_solo-info{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6e4533;
+    font-family: "Rubik";
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.production-fon_solo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.production_solo-price_block{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+.production_solo-price{
+    margin-right: 20px;
+    font-size: 26px;
+    line-height: 34px;
+    font-family: "RubikMedium";
+    color: #86af67;
+}
+
+.production_solo-old_price{
+    font-size: 20px;
+    line-height: 34px;
+    font-family: "RubikMedium";
+    color: #b4a49b;
+    text-decoration: line-through;
+}
+
+.production_solo-button button{
+    width: 135px;
+    height: 50px;
+    background: linear-gradient(#8caf48, #abd86b);
+    color: #fff;
+    border-radius: 25px;
+    font-family: "RubikMedium";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 4px 8px 18px 0px rgb(170 224 68 / 50%);
+    padding: 23px 40px;
+    border: 1px solid #8caf48;
+}
+
+.production_solo-individual{
+    margin: 25px 0px;
+    background-color: #edb049;
+    color: #fff;
+    padding: 30px 42px 25px 26px;
+}
+
+.production_solo-individual_label{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "RubikMedium";
+}
+
+.production_solo-seo{
+    padding: 60px 50px 40px 40px;
+    border: 1px solid #c5aca1
+}
+
+.production_solo-seo_info{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6e4533;
+    font-family: "Rubik";
+}

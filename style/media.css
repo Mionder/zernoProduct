@@ -70,6 +70,9 @@
     .production_item{
         max-width: 350px;
     }
+    .production_solo-img img{
+        max-width: 535px;
+    }
 }
 
 @media screen and (max-width: 1250px){
