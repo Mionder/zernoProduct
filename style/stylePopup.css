@@ -1,0 +1,228 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Rubik"; 
+    src: url("../fonts/Rubik.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Rubikblack"; 
+    src: url("../fonts/Rubikblack.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Rubikbold"; 
+    src: url("../fonts/Rubikbold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Rubiklight"; 
+    src: url("../fonts/Rubiklight.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Rubikmedium"; 
+    src: url("../fonts/Rubikmedium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+.banner{
+    padding-top: 60px;
+    padding-left: 60px;
+    /* max-width: 837px; */
+    min-height: 505px;
+    background-color: #e6e0dc;
+    overflow: hidden;
+    width: 837px;
+}
+
+.banner_wrapper{
+    position: relative;
+
+}
+
+.banner_title-img{
+    position: absolute;
+    top: 0;
+    left: -95px;
+    max-width: 483px;
+    height: auto;
+}
+
+.banner_title-label{
+    font-size: 48px;
+    line-height: 60.63px;
+    font-family: "RubikMedium";
+    color: #fff;
+    letter-spacing: 0.75px;
+    position: absolute;
+    top: 25px;
+    left: -20px;
+    text-transform: uppercase;
+}
+
+.banner_subtitle{
+    font-family: "Rubik";
+    font-size: 32.43px;
+    line-height: 43.23px;
+    color: #5c4236;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    max-width: 350px;
+    padding-top: 140px;
+}
+
+.banner-img{
+    position: absolute;
+    right: 0;
+    top: -65px;
+}
+
+.banner_button button{
+    font-size: 14px;
+    line-height: 37.9px;
+    margin-top: 160px;
+    width: 256px;
+    height: 60px;
+    background: linear-gradient(#8caf48, #abd86b);
+    color: #fff;
+    border-radius: 25px;
+    font-family: "RubikMedium";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 4px 8px 18px 0px rgb(170 224 68 / 50%);
+    padding: 18px 30px;
+    border: 1px solid #8caf48;
+}
+
+.cancel_img{
+    position: absolute;
+    left: 910px;
+    width: 30px;
+    height: auto;
+    top: 0;
+}
+
+.popup_cancel{
+    left: 400px;
+    top: 590px;
+}
+.banner_full{
+    position: relative;
+}
+
+/* POPUP */
+
+.popup_full{
+    margin-top: 24px;
+    max-width: 387px;
+}
+
+.popup_header{
+    padding: 35px 30px 30px 35px;
+    background-color: #90b34c;
+}
+
+.popup_header-title{
+    font-size: 17px;
+    color: #f7f5f0;
+    line-height: 24px;
+    font-family: "RubikMedium";
+    text-transform: uppercase;
+}
+
+.popup_body{
+    padding: 60px 60px 40px 60px;
+    background: #ebe4e0;
+}
+
+.popup_body-input{
+    font-size: 16px;
+    line-height: 37.89px;
+    font-family: "Rubik";
+    color: #b4a49b;
+    margin-bottom: 25px;
+    padding: 20px;
+    width: 100%;
+    max-width: 225px;
+    height: 14px;
+    border: none;
+}
+
+.popup_body-police{
+    display: flex;
+    justify-content: space-between;
+}
+
+.check_police{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.popup_body-police_label{
+    font-size: 12px;
+    line-height: 14px;
+    color: #b4a49b;
+    font-family: "Rubik";
+    max-width: 225px;
+    margin-bottom: 24px;
+}
+
+.popup_body-police_label span{
+    text-decoration: underline;
+}
+
+.popup_body-button button{
+    font-size: 14px;
+    line-height: 37.9px;
+    width: 176px;
+    height: 55px;
+    background: linear-gradient(#8caf48, #abd86b);
+    color: #fff;
+    border-radius: 25px;
+    font-family: "RubikMedium";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 4px 8px 18px 0px rgb(170 224 68 / 50%);
+    padding: 20px 40px;
+    border: 1px solid #8caf48;
+    margin: auto;
+}
+
+/* .appearance_panel{
+    display: flex;
+    justify-content: space-around;
+} */

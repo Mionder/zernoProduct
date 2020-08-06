@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/stylePopup.css">
+</head>
+<body>
+    <div class="appearance_panel">
+        <div class="banner_full">
+            <div class="banner">
+                <div class="banner_wrapper">
+                <div class="banner_title">
+                    <img src="./img/banner2.png" class="banner_title-img" alt="baner">
+                    <p class="banner_title-label">-30% скидка</p>
+                </div>
+                <p class="banner_subtitle">на все товары в категории "крупы"</p>
+                <a href="#" class="banner_button"><button>перейти в продукцию</button></a>
+                <img src="./img/baner1.png" class="banner-img" alt="baner">
+                </div>
+            </div>
+            <img src="./img/cancel.svg" class="cancel_img" alt="cancel">
+        </div>
+
+        <div class="popup_full">
+            <div class="popup">
+                <form action="POST" class="popup_wrapper">
+                    <div class="popup_header">
+                        <p class="popup_header-title">Отправьте свои контактные данные и мы свяжемся с вами 
+                            в течении 15 минут</p>
+                    </div>
+                    <div class="popup_body">
+                        <input placeholder="Имя" name="nameClient" type="text" class="popup_body-input">
+                        <input placeholder="Почта" name="emailClient" type="email" class="popup_body-input">
+                        <input placeholder="Телефон" name="phoneClient" type="text" class="popup_body-input">
+                        <div class="popup_body-police">
+                            <input type="radio" class="check_police">
+                            <p class="popup_body-police_label">Я соглашаюсь на обработку персональных данных в соответствии с <span>Политикой конфиденциальности</span> </p>
+                        </div>
+                        <a href="#" class="popup_body-button"><button>отправить</button></a>
+                    </div>
+                </form>
+            </div>
+            <img src="./img/cancel.svg" class="cancel_img popup_cancel" alt="cancel">
+        </div>
+    </div>
+</body>
+</html>
