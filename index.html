@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/stylePopup.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/media.css">
     <title>Зернопродукты</title>
@@ -242,6 +243,31 @@
         </div>
 
         </div>
-    </div>       
+        <div class="banner_main" id="banner">
+            <div class="banner-inner">
+                <div class="banner_full">
+                    <div class="banner">
+                        <div class="banner_wrapper">
+                        <div class="banner_title">
+                            <img src="./img/banner2.png" class="banner_title-img" alt="baner">
+                            <p class="banner_title-label">-30% скидка</p>
+                        </div>
+                        <p class="banner_subtitle">на все товары в категории "крупы"</p>
+                        <a href="#" class="banner_button"><button>перейти в продукцию</button></a>
+                        <img src="./img/baner1.png" class="banner-img" alt="baner">
+                        </div>
+                    </div>
+                    <img src="./img/cancel.svg" onclick=closeBanner()  class="cancel_img" alt="cancel">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script defer>
+        closeBanner = () => {
+            document.getElementById("banner").style.display = "none";
+        }
+    </script>
 </body>
 </html>
